@@ -7,6 +7,6 @@ Redirect /facebook-ads https://www.facebook.com/advertising
 Redirect /landing-page https://delicious.com/marcelotoledo/tag_bundle/Landing%20Page
 Redirect /metrics https://delicious.com/marcelotoledo/tag_bundle/Dono%20-%20Metrics
 Redirect /investidores-e-rounds-brasil http://dealbook.co
-Redirect /captable /files/dono-cap-table.xls
-Redirect /pl /files/dono-pl.xls
-Redirect /fluxo-de-caixa /files/dono-fluxo-de-caixa.xls
+Redirect /captable http://queroserdono.com/files/dono-cap-table.xls
+Redirect /pl http://queroserdono.com/files/dono-pl.xls
+Redirect /fluxo-de-caixa http://queroserdono.com/files/dono-fluxo-de-caixa.xlsx
