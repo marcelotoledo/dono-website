@@ -95,6 +95,9 @@ p.action.right { text-align: right; }
    .available-a ul li.saraiva a { background-position: -200px; }
    .available-a ul li a:hover { opacity: 0.8; }
 
+.dono-na-midia { margin-left: 240px; }
+.dono-na-midia p { font: normal 2em/1 'MisoRegular',Helvetica Neue,Helvetica,Arial,sans-serif; letter-spacing: -0.025em; }
+
 .connect-a { }
  .connect-a ul { list-style: none; width: 100%; margin: 0; padding: 0; font-size: 0; text-align: center; letter-spacing: -5px; }
   .connect-a ul li { display: inline-block; margin: 0; vertical-align: top; font-size: 10px; letter-spacing: 0; }
