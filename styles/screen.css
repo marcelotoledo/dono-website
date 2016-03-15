@@ -86,14 +86,39 @@ p.action.right { text-align: right; }
  .available-a p { font: normal 2.4em/1 'MisoRegular',Helvetica Neue,Helvetica,Arial,sans-serif; letter-spacing: -0.025em; }
  .available-a ul { list-style: none; overflow: hidden; margin: 0; padding: 0; }
   .available-a ul li { float: left; margin: 0; }
-  .available-a ul li ~ li { margin-left: 34px; }
-   .available-a ul li a { display: block; width: 42px; height: 85px; overflow: hidden; background: url(../images/available-a-logos.jpg) -10001px -10001px no-repeat; text-indent: 105%; white-space: nowrap; }
+  .available-a ul li ~ li { margin-left: 34px;  margin-bottom:10px; }
+   .available-a ul li a { display: block; width: 42px; height: 43px; overflow: hidden; background: url(../images/available-a-logos.jpg) -10001px -10001px no-repeat; text-indent: 105%; white-space: nowrap; }
    .available-a ul li.submarino a { background-position: 0 0; }
    .available-a ul li.livraria-cultura a { background-position: -50px 0; }
    .available-a ul li.siciliano a { background-position: -100px 0; }
    .available-a ul li.americanas a { background-position: -150px 0; }
    .available-a ul li.saraiva a { background-position: -200px; }
+   
+    .available-a ul li.amaz a { background-position:-249px 0; }
+	/*.available-a ul li.shoptime{ }*/
+   .available-a ul li.shoptime a { background-position:-300px 0; width:122px; }
+   .available-a ul li.busc a { background-position:-433px 0; }
+   .available-a ul li.extra a { background-position: -485px 0; }
+
+   
+   
    .available-a ul li a:hover { opacity: 0.8; }
+   
+.available-a ul li:nth-child(6) {
+    clear: both;
+    margin-left: 0;
+    padding-top: 0;
+}
+
+
+.digital:before , .digital:after{ clear: both; content: ""; display: block;}
+.digital{ padding:0 0 37px;}
+.digital p { font: normal 2.4em/1 'MisoRegular',Helvetica Neue,Helvetica,Arial,sans-serif; letter-spacing: -0.025em; }
+.digital > ul { margin: 0; padding: 0;}
+.digital ul li { float: left; margin: 0 15px 0 0; list-style:none;  }
+.digital ul li a { display: block; height: auto;  }
+
+
 
 .dono-na-midia { margin-left: 240px; }
 .dono-na-midia p { font: normal 2em/1 'MisoRegular',Helvetica Neue,Helvetica,Arial,sans-serif; letter-spacing: -0.025em; }
